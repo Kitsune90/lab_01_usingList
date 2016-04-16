@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4089C85B1CC268D100F8276F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4089C85A1CC268D100F8276F /* main.cpp */; };
+		4089C8661CC2690C00F8276F /* Elenco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4089C8611CC2690C00F8276F /* Elenco.cpp */; };
+		4089C8671CC2690C00F8276F /* Persona.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4089C8631CC2690C00F8276F /* Persona.cpp */; };
+		4089C8691CC2692200F8276F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4089C8681CC2692200F8276F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,13 @@
 
 /* Begin PBXFileReference section */
 		4089C8571CC268D100F8276F /* lab_01_usingList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab_01_usingList; sourceTree = BUILT_PRODUCTS_DIR; };
-		4089C85A1CC268D100F8276F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4089C8611CC2690C00F8276F /* Elenco.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Elenco.cpp; sourceTree = "<group>"; };
+		4089C8621CC2690C00F8276F /* Elenco.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Elenco.hpp; sourceTree = "<group>"; };
+		4089C8631CC2690C00F8276F /* Persona.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Persona.cpp; sourceTree = "<group>"; };
+		4089C8641CC2690C00F8276F /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		4089C8651CC2690C00F8276F /* Persona.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Persona.hpp; sourceTree = "<group>"; };
+		4089C8681CC2692200F8276F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4089C86A1CC2692A00F8276F /* specifiche */ = {isa = PBXFileReference; lastKnownFileType = folder; path = specifiche; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 		4089C84E1CC268D100F8276F = {
 			isa = PBXGroup;
 			children = (
+				4089C86A1CC2692A00F8276F /* specifiche */,
 				4089C8591CC268D100F8276F /* lab_01_usingList */,
 				4089C8581CC268D100F8276F /* Products */,
 			);
@@ -57,7 +66,12 @@
 		4089C8591CC268D100F8276F /* lab_01_usingList */ = {
 			isa = PBXGroup;
 			children = (
-				4089C85A1CC268D100F8276F /* main.cpp */,
+				4089C8681CC2692200F8276F /* main.cpp */,
+				4089C8611CC2690C00F8276F /* Elenco.cpp */,
+				4089C8621CC2690C00F8276F /* Elenco.hpp */,
+				4089C8631CC2690C00F8276F /* Persona.cpp */,
+				4089C8641CC2690C00F8276F /* Persona.h */,
+				4089C8651CC2690C00F8276F /* Persona.hpp */,
 			);
 			path = lab_01_usingList;
 			sourceTree = "<group>";
@@ -118,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4089C85B1CC268D100F8276F /* main.cpp in Sources */,
+				4089C8661CC2690C00F8276F /* Elenco.cpp in Sources */,
+				4089C8671CC2690C00F8276F /* Persona.cpp in Sources */,
+				4089C8691CC2692200F8276F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
